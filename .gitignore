@@ -1,5 +1,5 @@
 # Truck Data folder - due to size
-data/trucks/
+data/trucks/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

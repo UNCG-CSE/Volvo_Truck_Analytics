@@ -1,0 +1,51 @@
+Channel,Description,Unit of Measurement
+Time,IPE:DateTime,s
+1730_CH9_ AutomaticStartStop,,V
+1730_CH10_Truck_Batteries,,V
+4649_Ch1_Alternator_250A,,A
+4649_Ch2_BattOut_100A,,A
+4649_Ch3_Trailer_50A,,A
+4649_Ch4_Inverter_100A,,A
+4649_Ch5_Fridge_50A,,A
+4649_Ch6_200A_APU_BatteryBank,,A
+4649_Ch7_200A_BatterySeparator,,A
+4649_Ch8_APU_BatteryVoltage,,V
+ActualEnginePercentTorque,The calculated output torque of the engine.,percent
+ActualEnginePercentTorqueHiRes,"No user in PXFS, VBC agrees for the removal of this signals. UNDER INVESTIGATION",percent
+AmbientAirTemperature_V,Temperature of air surrounding vehicle. SPN 171 Used by Factory interface,C
+asu_UreaTankTemp,Urea Tank Temperature,C
+BarometricPressure_BB1_X_E,Absolute air pressure of the atmosphere.,kPa
+BoostPressure,,kPa
+CruiseCtrlSetSpeed,,km_per_h
+DrvrDemandEngPercentTorque,The requested torque output of the engine by the driver.,percent
+EngDemandPercentTorque,"not usd for MD AMTE, used by HD?",percent
+EngDslPrtclateFilterIntakePress,Exhaust back pressure as a result of particle accumulation on filter media placed in the exhaust stream.,kPa
+EngExhaustGasTemp,Temperature of combustion byproducts leaving the engine.,C
+EngineAirIntakeTemp_BB1_X_E,Temperature of air entering vehicle air induction system.,C
+EngineCoolantTemp_stat,Temperature of liquid found in engine cooling system. Old name: EngineCoolantTemp_stat,C
+EngineKeyPosition,"The current key position, either an actual (if available) or a synthesized from various sources.",No unit
+EngineOilLevel,Ratio of current volume of engine sump oil to maximum required volume.,percent
+EngineOilPressure,"Gage pressure of oil in engine lubrication system as provided by oil pump. Used by FACTORY INTERFACE, must synchronize with them before chaning.",kPa
+EngineOilTemperature,"Temperature of the engine lubricant. Used by FActory interface, must be synhronized with them before changing",C
+EnginePercentLoadAtCurrentSpd,Used by Factory Interface must be synchronized with them before changing.,percent
+EngineSpeed,Actual engine speed which is calculated over a minimum crankshaft angle of 720 degrees divided by the number of cylinders.,rpm
+EngIntakeManifold1Press,The gage pressure measurement of the air intake manifold.,kPa
+EngIntakeManifold1Temp,Temperature of pre-combustion air found in intake manifold of engine air supply system.,C
+SteeringWheelAngle1,"The main operator`s steering wheel angle (on the steering column, not the actual wheel angle). The vehicle being steered to the left results in a positive steering wheel angle.",radian
+TotalVehicleDistanceHighRes,Accumulated distance traveled by the vehicle during its operation.,m
+TransmissionOilTemp,Temperature of the transmission lubricant.,C
+TransOilLevel,Ratio of volume of transmission sump oil to recommended volume.,percent
+TransOilPress,"Gage pressure of lubrication fluid in transmission, measured after pump.",kPa
+tse_TurboSpeed,Turbo speed ( sensor or estimated value ),rpm
+VehicleSpeed,,km/h
+VehicleWeightVP15,,kg
+WheelBasedVehicleSpeed,"65024 - 65279 Error , 65280 - 65535 Not available Used by Factory interface",km/h
+CPU load,Define the percental CPU load of TESTdrive.,%
+UTC hour,Hour as UTC time,
+UTC minute,Minute as UTC time,
+UTC second,Seconds as UTC time,
+UTC month,Month as UTC time,
+UTC day,Day as UTC time,
+UTC year,Year as UTC time,
+GPS altitude,Altitude,m
+GPS speed,Speed,km/h

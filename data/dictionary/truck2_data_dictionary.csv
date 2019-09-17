@@ -1,0 +1,47 @@
+Column Name ,Description:,Units of Measurement
+Time,IPE:DateTime,s
+C_1115_1_Alternator_250A,,A
+C_1115_2_BattOut_100A,,A
+C_1115_3_Fridge_20A,,A
+C_1115_4_Trailer_50A,,A
+C_1115_5_Inventer_100A,,A
+TotalVehicleDistanceHighRes,Accumulated distance traveled by the vehicle during its operation.,m
+EngineSpeed,Actual engine speed which is calculated over a minimum crankshaft angle of 720 degrees divided by the number of cylinders.,rpm
+WheelBasedVehicleSpeed,"65024 - 65279 Error , 65280 - 65535 Not available Used by Factory interface",km/h
+asu_UreaTankTemp,Urea Tank Temperature,C
+EngineKeyPosition,"The current key position, either an actual (if available) or a synthesized from various sources.",No unit
+SteeringWheelAngle1,"The main operator`s steering wheel angle (on the steering column, not the actual wheel angle). The vehicle being steered to the left results in a positive steering wheel angle.",radian
+BarometricPressure_BB1_X_E,Absolute air pressure of the atmosphere.,kPa
+EngineAirIntakeTemp_BB1_X_E,Temperature of air entering vehicle air induction system.,C
+ActualEnginePercentTorque,The calculated output torque of the engine.,percent
+ActualEnginePercentTorqueHiRes,"No user in PXFS, VBC agrees for the removal of this signals. UNDER INVESTIGATION",percent
+DrvrDemandEngPercentTorque,The requested torque output of the engine by the driver.,percent
+EngDemandPercentTorque,"not usd for MD AMTE, used by HD?",percent
+EnginePercentLoadAtCurrentSpd,Used by Factory Interface must be synchronized with them before changing.,percent
+EngineOilLevel,Ratio of current volume of engine sump oil to maximum required volume.,percent
+EngineOilPressure,"Gage pressure of oil in engine lubrication system as provided by oil pump. Used by FACTORY INTERFACE, must synchronize with them before chaning.",kPa
+EngineCoolantTemp_stat,Temperature of liquid found in engine cooling system. Old name: EngineCoolantTemp_stat,C
+EngineOilTemperature,"Temperature of the engine lubricant. Used by FActory interface, must be synhronized with them before changing",C
+EngDslPrtclateFilterIntakePress,Exhaust back pressure as a result of particle accumulation on filter media placed in the exhaust stream.,kPa
+EngExhaustGasTemp,Temperature of combustion byproducts leaving the engine.,C
+EngIntakeManifold1Press,The gage pressure measurement of the air intake manifold.,kPa
+EngIntakeManifold1Temp,Temperature of pre-combustion air found in intake manifold of engine air supply system.,C
+TransmissionOilTemp,Temperature of the transmission lubricant.,C
+TransOilLevel,Ratio of volume of transmission sump oil to recommended volume.,percent
+TransOilPress,"Gage pressure of lubrication fluid in transmission, measured after pump.",kPa
+RoadInclinationVP15,254 Error  255 Not available,percent
+VehicleWeightVP15,,kg
+AmbientAirTemperature_V,Temperature of air surrounding vehicle. SPN 171 Used by Factory interface,C
+CruiseCtrlSetSpeed,,km_per_h
+VehicleSpeed,,km/h
+BoostPressure,,kPa
+tse_TurboSpeed,Turbo speed ( sensor or estimated value ),rpm
+CPU load,Define the percental CPU load of TESTdrive.,%
+UTC hour,Hour as UTC time,
+UTC minute,Minute as UTC time,
+UTC second,Seconds as UTC time,
+UTC month,Month as UTC time,
+UTC day,Day as UTC time,
+UTC year,Year as UTC time,
+GPS altitude,Altitude,m
+GPS speed,Speed,km/h

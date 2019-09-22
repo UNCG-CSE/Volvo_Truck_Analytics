@@ -2,6 +2,10 @@
 
 Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https://github.com/WilliamWallaceKildFiftyMen), [Wahab Ehsan](https://github.com/WahabEhsan), [James Polk](https://github.com/methos237), [Christopher Thacker](https://github.com/Kozmocha)
 
+## Volvo Data Description 
+ 
+ Our group has been given data on two different Volvo Vehicles (Trucks). These trucks have been equiped with many, many sensors that log data on everything from transmission oil temperature to the time the driver spends on the accelerator, for that given vehicle. One of the main areas that is in question is a new power unit called the "APU". It doesnt depend on power of the motor, and general assumptions would say that would call for better efficency and longivity of the trucks motor. Using time series manipulations on the data given should give insight on whether these assumptions are possibly true. These trucks are based in areas with variations in elevation, so the outcome should be interesting. 
+ 
  ## Goals
  
  -To anaylize Volvo vehicle Long haul and short haul data
@@ -27,4 +31,17 @@ Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https
 -Anomoly Detection within the data 
 
 -Grouping/clustering or other visualizations in data manipulations  
+
+## Initial Tasks
+In general, some of these tasks are dependent on another, we can all work together and adjust issues/project needs accordingly
+
+-Bill: Determine vehicle travel designation and update ReadMe.md on git.
+
+-Chris: Adjust and format the data dictionary to metrics being used.
+
+-James: Setup master branch with both data sets for manipulations and determine git functions on merging branches.
+
+-Wahab: Determine whether there are rows or columns with all NaN values, if so remove them.
+
+
 

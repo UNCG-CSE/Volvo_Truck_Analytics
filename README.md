@@ -37,13 +37,13 @@ In general, some of these tasks are dependent on another.  We can all work toget
 
 -Bill: Determine vehicle travel designation and update ReadMe.md on git.
 
--Chris: Adjust and format the data dictionary to metrics being used.
+-Christopher: Adjust and format the data dictionary to metrics being used.
 
 -James: Setup master branch with both data sets for manipulations and determine git functions on merging branches.
 
 -Wahab: Determine whether there are rows or columns with all NaN values, if so remove them.
 
--Yanni: Aggregate on vehicle weights to determine if weight affects performance of the vehicles. 
+-Ioannis: Aggregate on vehicle weights to determine if weight affects performance of the vehicles. 
 
 
 

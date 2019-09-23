@@ -43,5 +43,7 @@ In general, some of these tasks are dependent on another, we can all work togeth
 
 -Wahab: Determine whether there are rows or columns with all NaN values, if so remove them.
 
+-Yanni: Merge weights together to determine how weight affects performance of the vehicles. 
+
 
 

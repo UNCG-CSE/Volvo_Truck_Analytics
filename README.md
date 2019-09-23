@@ -12,9 +12,9 @@ Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https
  
  -Use time series to aid in visualizations for analysis 
  
- -To determine if different metrics logged by sensors make a difference in relation to an "APU" module that is not dependent on power from   the motor  
+ -Determine if different metrics logged by sensors make a difference in relation to an "APU" module that is not dependent on power from the motor  
  
- -report any discovered anomolies detected by data manipulations 
+ -Report any discovered anomolies detected by data manipulations 
  
  ## Objectives:
  
@@ -33,7 +33,7 @@ Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https
 -Grouping/clustering or other visualizations in data manipulations  
 
 ## Initial Tasks
-In general, some of these tasks are dependent on another, we can all work together and adjust issues/project needs accordingly
+In general, some of these tasks are dependent on another.  We can all work together and adjust issues/project needs accordingly.
 
 -Bill: Determine vehicle travel designation and update ReadMe.md on git.
 

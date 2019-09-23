@@ -1,5 +1,16 @@
-This is the progress report for the period ending September 23, 2019.  The following tasks have been completed or are being
-actively worked on:
+This is the progress report for the period ending September 23, 2019.
+
+** Project Description **
+Our group has been given data on two different Volvo Vehicles (Trucks). These trucks have been equiped with many, many sensors that
+log data on everything from transmission oil temperature to the time the driver spends on the accelerator, for that given vehicle.
+One of the main areas that is in question surrounds a new power unit called the "APU". It does not depend on power from the motor,
+and general assumptions would say that would call for better efficency and longivity of the truck's motor. Using time series
+manipulations on the data given should give insight on whether these assumptions are possibly true. These trucks are based in areas
+with variations in elevation, so the outcome should be interesting.
+
+The goals of this project include analyzing Volvo vehicle long haul and short haul data, use of time series to aid in visualizations for analysis, determining if different metrics logged by sensors make a difference in relation to an "APU" module that is not dependent on power from the motor, and the reporting any discovered anomolies detected by data manipulations.
+
+The following tasks have been completed or are being actively worked on:
 
 ** Creation of file hierarchy and implmentation of Pandas dataframes **
 This has been completed by James Polk.  The follow folders have been created: src/, doc/, /data, and util/.  Within the data

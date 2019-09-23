@@ -32,7 +32,7 @@ Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https
 
 -Grouping/clustering or other visualizations in data manipulations  
 
-## Initial Tasks
+## Initial Phase 1 Tasks
 In general, some of these tasks are dependent on another.  We can all work together and adjust issues/project needs accordingly.
 
 -Bill: Determine vehicle travel designation and update ReadMe.md on git.

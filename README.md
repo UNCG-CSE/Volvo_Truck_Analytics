@@ -32,18 +32,18 @@ Team Members: [Ioannis Batsios](https://github.com/IBatsios), [Bill Downs](https
 
 -Grouping/clustering or other visualizations in data manipulations  
 
-## Initial Tasks
+## Initial Phase 1 Tasks
 In general, some of these tasks are dependent on another.  We can all work together and adjust issues/project needs accordingly.
 
 -Bill: Determine vehicle travel designation and update ReadMe.md on git.
 
--Chris: Adjust and format the data dictionary to metrics being used.
+-Christopher: Adjust and format the data dictionary to metrics being used.
 
 -James: Setup master branch with both data sets for manipulations and determine git functions on merging branches.
 
 -Wahab: Determine whether there are rows or columns with all NaN values, if so remove them.
 
--Yanni: Merge weights together to determine how weight affects performance of the vehicles. 
+-Ioannis: Aggregate on vehicle weights to determine if weight affects performance of the vehicles. 
 
 
 

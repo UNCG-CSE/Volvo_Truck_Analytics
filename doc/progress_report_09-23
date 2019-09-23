@@ -8,7 +8,9 @@ and general assumptions would say that would call for better efficency and longi
 manipulations on the data given should give insight on whether these assumptions are possibly true. These trucks are based in areas
 with variations in elevation, so the outcome should be interesting.
 
-The goals of this project include analyzing Volvo vehicle long haul and short haul data, use of time series to aid in visualizations for analysis, determining if different metrics logged by sensors make a difference in relation to an "APU" module that is not dependent on power from the motor, and the reporting any discovered anomolies detected by data manipulations.
+The goals of this project include analyzing Volvo vehicle long haul and short haul data, use of time series to aid in 
+visualizations for analysis, determining if different metrics logged by sensors make a difference in relation to an "APU" module
+that is not dependent on power from the motor, and the reporting any discovered anomolies detected by data manipulations.
 
 The following tasks have been completed or are being actively worked on:
 

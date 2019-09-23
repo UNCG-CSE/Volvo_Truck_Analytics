@@ -1,0 +1,39 @@
+This is the progress report for the period ending September 23, 2019.
+
+** Project Description **
+Our group has been given data on two different Volvo Vehicles (Trucks). These trucks have been equiped with many, many sensors that
+log data on everything from transmission oil temperature to the time the driver spends on the accelerator, for that given vehicle.
+One of the main areas that is in question surrounds a new power unit called the "APU". It does not depend on power from the motor,
+and general assumptions would say that would call for better efficency and longivity of the truck's motor. Using time series
+manipulations on the data given should give insight on whether these assumptions are possibly true. These trucks are based in areas
+with variations in elevation, so the outcome should be interesting.
+
+The goals of this project include analyzing Volvo vehicle long haul and short haul data, use of time series to aid in 
+visualizations for analysis, determining if different metrics logged by sensors make a difference in relation to an "APU" module
+that is not dependent on power from the motor, and the reporting any discovered anomolies detected by data manipulations.
+
+The following tasks have been completed or are being actively worked on:
+
+** Creation of file hierarchy and implmentation of Pandas dataframes **
+This has been completed by James Polk.  The follow folders have been created: src/, doc/, /data, and util/.  Within the data
+directory, an empty folder trucks/ for truck1.csv and truck2.csv can be found.  Since these files are too large to be uploaded to
+GitHub, each team member is responsible for ensuring that the .csv files reside here in their local directories.  The dictionary
+files for the two .csv files can be found in data/dictonary on the repository.  The src/ folder houses VolvoTrucksAnalytics.ipynb,
+the main iPythin Notebook for the project.  Currently the util/ folder is unused.
+
+Notebook blocks have been created for imports and constants, functions relating to data cleanup and wrangling, and logic for said
+cleanup.  Functions for the creation of Pandas dataframes for each truck have been coded as well as the culling of extraenous UTC
+date and time data that is already present in a DateTime stamp in the dataframe.  Finally, some basic data statistics regarding
+the volume of the data has been presented.
+
+** Determine vehicle travel designation and update ReadMe.md on git **
+
+
+** Adjust and format the data dictionary to metrics being used **
+
+
+** Determine whether there are rows or columns with all NaN values, if so remove them **
+This was completed by Wahab Ehsan. In order to find rows that are not useful becasue of the exessive amounts of Na types, the following conditions were taken into consideration. The number of columns for each truck is different. The times Na type in truck1 does not equal to the number of time Na types appear on truck2. Columns with all Na types are useless and are deleted using pandas. Rows are deleted by the threshold value percent. If the Non-Na values are less then the percent given then the row would be deleted. Initially the percent threshold is set to 75 at the moment as a global variable and can be decremented or incremented depending on the data needed.
+
+
+** Merge weights together to determine how weight affects performance of the vehicles **

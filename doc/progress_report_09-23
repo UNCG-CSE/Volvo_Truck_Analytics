@@ -1,0 +1,25 @@
+This is the progress report for the period ending September 23, 2019.  The following tasks have been completed or are being
+actively worked on:
+
+** Creation of file hierarchy and implmentation of Pandas dataframes **
+This has been completed by James Polk.  The follow folders have been created: src/, doc/, /data, and util/.  Within the data
+directory, an empty folder trucks/ for truck1.csv and truck2.csv can be found.  Since these files are too large to be uploaded to
+GitHub, each team member is responsible for ensuring that the .csv files reside here in their local directories.  The dictionary
+files for the two .csv files can be found in data/dictonary on the repository.  The src/ folder houses VolvoTrucksAnalytics.ipynb,
+the main iPythin Notebook for the project.  Currently the util/ folder is unused.
+
+Notebook blocks have been created for imports and constants, functions relating to data cleanup and wrangling, and logic for said
+cleanup.  Functions for the creation of Pandas dataframes for each truck have been coded as well as the culling of extraenous UTC
+date and time data that is already present in a DateTime stamp in the dataframe.  Finally, some basic data statistics regarding
+the volume of the data has been presented.
+
+** Determine vehicle travel designation and update ReadMe.md on git **
+
+
+** Adjust and format the data dictionary to metrics being used **
+
+
+** Determine whether there are rows or columns with all NaN values, if so remove them **
+
+
+** Merge weights together to determine how weight affects performance of the vehicles **

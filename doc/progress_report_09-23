@@ -33,6 +33,12 @@ the volume of the data has been presented.
 
 
 ** Determine whether there are rows or columns with all NaN values, if so remove them **
+This was completed by Wahab Ehsan. In order to find rows that are not useful becasue of the exessive amounts of NaN types, the
+following conditions were taken into consideration. The number of columns for each truck is different. The times NaN type in
+truck1 does not equal to the number of time NaN types appear on truck2. Columns with all NaN types are useless and are deleted
+using pandas. Rows are deleted by the threshold value percent. If the Non-NaN values are less then the percent given then the
+row would be deleted. Initially the percent threshold is set to 75 at the moment as a global variable and can be decremented or
+incremented depending on the data needed.
 
 
 ** Merge weights together to determine how weight affects performance of the vehicles **

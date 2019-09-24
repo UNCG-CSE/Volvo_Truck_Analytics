@@ -1,0 +1,46 @@
+Time,Time (DateTime)
+C_1115_1_Alternator_250A,1115 Alternator (A)
+C_1115_2_BattOut_100A,1115 Battery Out (A)
+C_1115_3_Fridge_20A,1115 Fridge (A)
+C_1115_4_Trailer_50A,1115 Trailer (A)
+C_1115_5_Inventer_100A,1115 Inverter (A)
+TotalVehicleDistanceHighRes,Total Distance (m)
+EngineSpeed,Engine Speed (rpm)
+WheelBasedVehicleSpeed,Vehicle Speed (Wheel-Based, km/hr)
+asu_UreaTankTemp,Urea Tank Temperature (C)
+EngineKeyPosition,Key Position
+SteeringWheelAngle1,Steering Wheel Angle
+BarometricPressure_BB1_X_E,Outside Air Pressure (kPa)
+EngineAirIntakeTemp_BB1_X_E,Temperature of Air Entering Vehicle (C)
+ActualEnginePercentTorque,Engine Output Torque (%)
+ActualEnginePercentTorqueHiRes,Engine Output Torque HiRes (%)
+DrvrDemandEngPercentTorque,Driver Requested Torque (%)
+EngDemandPercentTorque,Engine Requested Torque (%)
+EnginePercentLoadAtCurrentSpd,Engine Load at Current Speed (%)
+EngineOilLevel,Oil Level (%)
+EngineOilPressure,Oil Pressure (kPa)
+EngineCoolantTemp_stat,Coolant Temperature (C)
+EngineOilTemperature,Oil Temperature (C)
+EngDslPrtclateFilterIntakePress,Exhaust Back Pressure (kPa)
+EngExhaustGasTemp,Temperature of Engine Byproducts (C)
+EngIntakeManifold1Press,Pressure of Intake Manifold (kPa)
+EngIntakeManifold1Temp,Temperature of Pre-Combustion Air (C)
+TransmissionOilTemp,Transmission Lube Temperature (C)
+TransOilLevel,Transmission Lube Level (%)
+TransOilPress,Transmission Lube Pressure (kPa)
+RoadInclinationVP15,Road Inclination (%)
+VehicleWeightVP15,Vehicle Weight (kg)
+AmbientAirTemperature_V,Outside Air Temperature (C)
+CruiseCtrlSetSpeed,Cruise Control Speed (km/hr)
+VehicleSpeed,Vehicle Speed (km/hr)
+BoostPressure,Boost Pressure (kPa)
+tse_TurboSpeed,Turbo Speed (rpm)
+CPU load,CPU Load (%)
+UTC hour,UTC Hour
+UTC minute,UTC Minute
+UTC second,UTC Second
+UTC month,UTC Month
+UTC day,UTC Day
+UTC year,UTC Year
+GPS altitude,Altitude (m)
+GPS speed,Speed (km/hr)

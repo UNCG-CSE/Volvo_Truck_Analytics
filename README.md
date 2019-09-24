@@ -45,5 +45,7 @@ In general, some of these tasks are dependent on another.  We can all work toget
 
 -Ioannis: Aggregate on vehicle weights to determine if weight affects performance of the vehicles. 
 
+## Contributing
+In order to maintain a healthy Master branch, please follow the [Git Guide](https://github.com/UNCG-CSE/Volvo_Truck_Analytics/wiki/Git-Guide).
 
 

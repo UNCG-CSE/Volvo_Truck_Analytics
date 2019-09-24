@@ -42,3 +42,4 @@ incremented depending on the data needed.
 
 
 ** Merge weights together to determine how weight affects performance of the vehicles **
+This was completed by Ioannis Batsios. The columns with the same weight were merged together by the weight while the other columns that included numeric data were merged by using the mean of the data. Ioannis also looked at summing the data, but that appeared to be fruitless for most of the statistics, but it may be valuable when determining total mileage per vehicle as a vehicle begins to break down the more miles it has driven.

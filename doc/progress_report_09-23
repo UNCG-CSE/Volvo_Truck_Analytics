@@ -36,4 +36,5 @@ the volume of the data has been presented.
 This was completed by Wahab Ehsan. In order to find rows that are not useful becasue of the exessive amounts of Na types, the following conditions were taken into consideration. The number of columns for each truck is different. The times Na type in truck1 does not equal to the number of time Na types appear on truck2. Columns with all Na types are useless and are deleted using pandas. Rows are deleted by the threshold value percent. If the Non-Na values are less then the percent given then the row would be deleted. Initially the percent threshold is set to 75 at the moment as a global variable and can be decremented or incremented depending on the data needed.
 
 
+
 ** Merge weights together to determine how weight affects performance of the vehicles **

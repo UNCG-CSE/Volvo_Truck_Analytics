@@ -38,7 +38,7 @@ TransOilPress,Transmission Lube Pressure (kPa)
 tse_TurboSpeed,Turbo Speed (rpm)
 VehicleSpeed,Vehicle Speed (km/hr)
 VehicleWeightVP15,Vehicle Weight (kg)
-WheelBasedVehicleSpeed,Vehicle Speed (Wheel-Based, km/hr)
+WheelBasedVehicleSpeed,Vehicle Speed (Wheel-Based; km/hr)
 CPU load,CPU Load (%)
 UTC hour,UTC Hour
 UTC minute,UTC Minute

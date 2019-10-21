@@ -6,7 +6,7 @@ C_1115_4_Trailer_50A,1115 Trailer (A)
 C_1115_5_Inventer_100A,1115 Inverter (A)
 TotalVehicleDistanceHighRes,Total Distance (m)
 EngineSpeed,Engine Speed (rpm)
-WheelBasedVehicleSpeed,Vehicle Speed (Wheel-Based, km/hr)
+WheelBasedVehicleSpeed,Vehicle Speed (Wheel-Based; km/hr)
 asu_UreaTankTemp,Urea Tank Temperature (C)
 EngineKeyPosition,Key Position
 SteeringWheelAngle1,Steering Wheel Angle

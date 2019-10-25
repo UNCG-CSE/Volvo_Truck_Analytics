@@ -13,7 +13,7 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  
  ## Goals
  
- - Analyze Volvo vehicle Long haul and short haul data.
+ - Analyze Volvo vehicle long haul and short haul data.
  - Use time series to aid in visualizations for analysis.
  - Determine if different metrics logged by sensors make a difference in relation to an "APU" module that is not dependent on power from the motor. 
  - Report any discovered anomalies detected by data manipulations.

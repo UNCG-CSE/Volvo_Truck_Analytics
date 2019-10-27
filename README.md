@@ -27,6 +27,7 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  - [Numpy](https://numpy.org/) ```pip install numpy```
  - [Pandas](https://pandas.pydata.org/) ```pip install pandas```
  - [Matplotlib](https://matplotlib.org/) ```pip install matplotlib```
+ - [SciPy](https://scipy.org) ```pip install scipy```
  
  ## Objectives:
  

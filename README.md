@@ -25,7 +25,8 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) (Run ```pip install jupyter``` on CLI)
  #### Dependencies (working list):
  - [Numpy](https://numpy.org/) ```pip install numpy```
- - [Pandas](https://pandas.pydata.org/) ```pip install pandas``` 
+ - [Pandas](https://pandas.pydata.org/) ```pip install pandas```
+ - [Matplotlib](https://matplotlib.org/) ```pip install matplotlib```
  
  ## Objectives:
  

@@ -20,7 +20,7 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  
  ## Requirements
  #### Pre-requisites:
- - Latest version of [Python](https://www.python.org/downloads/)
+ - [Python 3.7.5](https://www.python.org/downloads/release/python-375/)
  - A Python Package Manager (we recommend [pip](https://pip.pypa.io/en/stable/installing/))
  - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) (Run ```pip install jupyter``` on CLI)
  #### Dependencies (working list):

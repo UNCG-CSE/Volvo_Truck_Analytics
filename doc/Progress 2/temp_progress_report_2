@@ -1,0 +1,38 @@
+Volvo Truck Analytics
+This report is for the progress period ending on 10/31/2019.
+Report is based on the guidelines under the "Report" section provided in the rubric.
+
+Ioannis Batsios
+<Task> <Hours Spent> <Description & Results>
+...
+
+Bill Downs
+<Task> <Hours Spent> <Description & Results>
+...
+
+Wahab Ehsan
+<Task> <Hours Spent> <Description & Results>
+...
+
+James Polk
+<Task> <Hours Spent> <Description & Results>
+...
+
+Christopher Thacker
+GPS Speed vs. Wheel-Based Speed Analysis & Determination of Long/Short Haul Trucks (12+ hours)
+The goal of this task was to compare GPS Speed and Wheel-Based Vehicle Speed for Truck 1 and Truck 2 internally through visual
+representation and percent change, and then compare the results for each truck to each other. The results revealed a major issue
+with the speed data: they are bimodal. There are two peaks for the distributions which represent a "stop" state and a
+"go" state, with "stop" being all of the zero or near-zero values and "go" being all of the values at the rightmost peak near the higher
+readings. This is a problem because it causes the average speed for the trucks to become inaccurate. In addition to this, the GPS Speed
+readings for Truck 2 are significantly lower than its Wheel-Based counterpart, but this isn't true for Truck 1's data: they are fairly
+consistent with each other in terms of hard-value readings. However, the trends are the same between the two columns in Truck 2, which
+indicates that the GPS Speed component was misconfigured. Finally, this initial and basic analysis of these two columns has indicated
+that the long-haul truck is Truck 1 and the short-haul is Truck 2.
+
+GitHub Repository Management (estimated 5+ hours)
+For most of Project Progress 2, I have been given the responsibility of managing the GitHub repository in a multitude of ways. This
+includes updating the home page README, creating, updating, and closing Issues, creating and assigning Labels to those Issues,
+managing and assigning group members to those Issues, and trying to keep the general repository structure simple and clean.
+
+ONCE EVERYONE HAS ADDED THEIR PARTS: I will convert this into a Word document and format it nicely for the professor.

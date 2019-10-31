@@ -46,14 +46,15 @@ our several outliers in the data.
 James Polk
 Aggregation of CPU Usage of Truck 1 (14+ hours)
 The goal of this task is to provide aggregation and time-series representaion of the CPU load of Truck 1. I contained my obeservational
-data to the first three days of logging in order to conform to the data of Truck 2.  The analysis shows that the CPU load of each of the three days
+data to the first three days of logging in order to conform to the data of Truck 2.  The time-series representation of the three days
+shows periods of sensor dropout for the CPU.  There is no particular pattern that can be gleaned from the surrounding data. The analysis shows that the CPU load of each of the three days
 follows a similar bimodal distribution with peaks around 45% and 56%.  Combining the three days worth of data provided a mean of 47.948982.  Performing a simple
 sampling of 1000 random rows resulted in a similar bimodal distribution with a mean of 47.579, a difference of 0.189982.  Performing a sampling distribution by taking a sample of
 1000 random rows and making 200 point estimates of the mean resulted in a normal distribution with a mean of 47.931810000000006; a difference of 0.017172.
 Calculating a 95% confidence interval for the aggregate data resulted in a z-critical value of 1.959963984540054, a sample mean of 48.356
 and a confidence interval of (47.9081645837598, 48.803835416240204).  Plotting of 25 confidence intervals showed 24 intersecting with the true population mean.
 
-Calculation of Distance Traveled by Truck 1 (8.5 hours)
+Calculation of Distance Traveled by Truck 1 (6.5 hours)
 Since the data does not include latitutde and longitualinal information, I sliced the dataframe by day, for the first three days, and resampled the data to 1 second intervals by mean.  I then used the formula of
 sum(Vehicle Speed (Wheel-Based; km/hr))/3600 to determing the total distance traveled.  This results were 872.5 km, 371.3 km, and 781.8 km forr
 days 1, 2, and 3 respecitvely.  This allowed us to determine that Truck 1 was a long-haul truck.

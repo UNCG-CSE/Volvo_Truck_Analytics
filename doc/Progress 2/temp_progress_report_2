@@ -15,7 +15,12 @@ continues to increase, the turbocharger will eventually hit a maximum speed and 
 to the engine resulting in a loss of power.
 
 Bill Downs
-<Task> <Hours Spent> <Description & Results>
+<Task>
+Identifying similarities in distribution and scatter plots in apu metrics. Also, linear regression, covariance and correlation is analyzed 
+Obvois physical attributes of alternator and APU are noted. In general, when the APU charges the batteries, the amps will drop on the 
+alternator sensor while increasing the voltage in the APU battery bank. This was my main idea becuase this is where Volvo plans on removing connection 
+from the alternator to the batter and change with a photovoltaic system. Result shouls give an idea of how much batteries should take .
+more than 24 probably 48 all together <Hours Spent> <Description & Results>
 ...
 
 Wahab Ehsan

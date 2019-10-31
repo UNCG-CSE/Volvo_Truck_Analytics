@@ -19,8 +19,24 @@ Bill Downs
 ...
 
 Wahab Ehsan
-<Task> <Hours Spent> <Description & Results>
-...
+Display Data by day (about 3 hours) 
+Function implementation of display data by day was created to sort all data by average for each day for a certain attribute. 
+Goal was to create a cleaner way of looking at data to find somthing interesting. We were able to find out that data for Truck one 
+data was the week of data or seven days which was expected, but for truck two there was only 3 days worth of data which was less then we were told.
+This means we'll have to decide which days to compare when comparing the two trucks and which days will be not usefull.
+
+Outlier Detection data (about 12 hours)
+This function was made to detect all the outliers in the data for a certian attribute and have a boxplot made for visuals. 
+Even though the data for truck one was 7 days worth, the averages were very far appart making me think if there are alot of outliers 
+and after running it through the function I was able to find out that the last 3 days of data for truck one was outliers. Meaning 
+there were three days worth of no useful data for Speed (km/hr)
+
+Determining Estimator (about 3 hour)
+Was able to determine to use the Kernel Density Estimatior (KDE) becasue of it being non-parametric. For the banwidth I decided to 
+use a larger bandwidth since our data was scattered around. Use of this function will be benefitial in the future. 
+We used this because our data had large amount of outliers and was not a normal distribution. Maybe after removing the outliers 
+we will switch to MLE. And we didnt choose MoM because that is also for normal distribtions and not as effective in our case becasue of 
+our several outliers in the data.
 
 James Polk
 <Task> <Hours Spent> <Description & Results>

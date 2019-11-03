@@ -4,20 +4,60 @@ Report is based on the guidelines under the "Report" section provided in the rub
 
 Ioannis Batsios
 <Task> <Hours Spent> <Description & Results>
-Vehicle Temp Analysis (5 hours)
-The goal of this task was to determine if the external temperature affected the performance of the vehicle. The results showed that the external temperature was inline with the temperature of the internal temperature readings of the vehicle. After seeing this result, I decided to do some research and discovered that the external temperature does not affect performance unless the temperature is extreme and the feature (or part) that is affected the most is the turbocharger, because it is compressing the hot intake air. If the ambient air is increased, the turbocharger has to do more work in order to proved the engine with the same amount of oxygen. If the temperature continues to increase, the turbocharger will eventually hit a maximum speed and will no longer provide enough oxygen to the engine resulting in a loss of power.
+Vehicle Temp Analysis (6+ hours)
+The goal of this task was to determine if the external temperature affected the performance of the vehicle. 
+The results showed that the external temperature was inline with the temperature of the internal temperature 
+readings of the vehicle. After seeing this result, I decided to do some research and discovered that the external 
+temperature does not affect performance unless the temperature is extreme and the feature (or part) that is affected 
+the most is the turbocharger, because it is compressing the hot intake air. If the ambient air is increased, the 
+turbocharger has to do more work in order to proved the engine with the same amount of oxygen. If the temperature 
+continues to increase, the turbocharger will eventually hit a maximum speed and will no longer provide enough oxygen 
+to the engine resulting in a loss of power.
 
 Bill Downs
-<Task> <Hours Spent> <Description & Results>
+<Task>
+Identifying similarities in distribution and scatter plots in apu metrics. Also, linear regression, covariance and correlation is analyzed 
+Obvois physical attributes of alternator and APU are noted. In general, when the APU charges the batteries, the amps will drop on the 
+alternator sensor while increasing the voltage in the APU battery bank. This was my main idea becuase this is where Volvo plans on removing connection 
+from the alternator to the batter and change with a photovoltaic system. Result shouls give an idea of how much batteries should take .
+more than 24 probably 48 all together <Hours Spent> <Description & Results>
 ...
 
 Wahab Ehsan
-<Task> <Hours Spent> <Description & Results>
-...
+Display Data by day (about 3 hours) 
+Function implementation of display data by day was created to sort all data by average for each day for a certain attribute. 
+Goal was to create a cleaner way of looking at data to find somthing interesting. We were able to find out that data for Truck one 
+data was the week of data or seven days which was expected, but for truck two there was only 3 days worth of data which was less then we were told.
+This means we'll have to decide which days to compare when comparing the two trucks and which days will be not usefull.
+
+Outlier Detection data (about 12 hours)
+This function was made to detect all the outliers in the data for a certian attribute and have a boxplot made for visuals. 
+Even though the data for truck one was 7 days worth, the averages were very far appart making me think if there are alot of outliers 
+and after running it through the function I was able to find out that the last 3 days of data for truck one was outliers. Meaning 
+there were three days worth of no useful data for Speed (km/hr)
+
+Determining Estimator (about 3 hour)
+Was able to determine to use the Kernel Density Estimatior (KDE) becasue of it being non-parametric. For the banwidth I decided to 
+use a larger bandwidth since our data was scattered around. Use of this function will be benefitial in the future. 
+We used this because our data had large amount of outliers and was not a normal distribution. Maybe after removing the outliers 
+we will switch to MLE. And we didnt choose MoM because that is also for normal distribtions and not as effective in our case becasue of 
+our several outliers in the data.
 
 James Polk
-<Task> <Hours Spent> <Description & Results>
-...
+Aggregation of CPU Usage of Truck 1 (14+ hours)
+The goal of this task is to provide aggregation and time-series representaion of the CPU load of Truck 1. I contained my obeservational
+data to the first three days of logging in order to conform to the data of Truck 2.  The time-series representation of the three days
+shows periods of sensor dropout for the CPU.  There is no particular pattern that can be gleaned from the surrounding data. The analysis shows that the CPU load of each of the three days
+follows a similar bimodal distribution with peaks around 45% and 56%.  Combining the three days worth of data provided a mean of 47.948982.  Performing a simple
+sampling of 1000 random rows resulted in a similar bimodal distribution with a mean of 47.579, a difference of 0.189982.  Performing a sampling distribution by taking a sample of
+1000 random rows and making 200 point estimates of the mean resulted in a normal distribution with a mean of 47.931810000000006; a difference of 0.017172.
+Calculating a 95% confidence interval for the aggregate data resulted in a z-critical value of 1.959963984540054, a sample mean of 48.356
+and a confidence interval of (47.9081645837598, 48.803835416240204).  Plotting of 25 confidence intervals showed 24 intersecting with the true population mean.
+
+Calculation of Distance Traveled by Truck 1 (6.5 hours)
+Since the data does not include latitutde and longitualinal information, I sliced the dataframe by day, for the first three days, and resampled the data to 1 second intervals by mean.  I then used the formula of
+sum(Vehicle Speed (Wheel-Based; km/hr))/3600 to determing the total distance traveled.  This results were 872.5 km, 371.3 km, and 781.8 km forr
+days 1, 2, and 3 respecitvely.  This allowed us to determine that Truck 1 was a long-haul truck.
 
 Christopher Thacker
 GPS Speed vs. Wheel-Based Speed Analysis & Determination of Long/Short Haul Trucks (12+ hours)

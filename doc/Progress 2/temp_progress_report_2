@@ -4,7 +4,7 @@ Report is based on the guidelines under the "Report" section provided in the rub
 
 Ioannis Batsios
 <Task> <Hours Spent> <Description & Results>
-Vehicle Temp Analysis (6+ hours)
+Vehicle Temp Analysis (10+ hours)
 The goal of this task was to determine if the external temperature affected the performance of the vehicle. 
 The results showed that the external temperature was inline with the temperature of the internal temperature 
 readings of the vehicle. After seeing this result, I decided to do some research and discovered that the external 
@@ -13,6 +13,9 @@ the most is the turbocharger, because it is compressing the hot intake air. If t
 turbocharger has to do more work in order to proved the engine with the same amount of oxygen. If the temperature 
 continues to increase, the turbocharger will eventually hit a maximum speed and will no longer provide enough oxygen 
 to the engine resulting in a loss of power.
+
+There is no more work needed to be done on temperature analysis because unless the temperatures are extreme (temp < 0(C)
+or temp > 38(C).
 
 Bill Downs
 <Task>

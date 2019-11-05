@@ -28,6 +28,8 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  - [Pandas](https://pandas.pydata.org/) ```pip install pandas```
  - [Matplotlib](https://matplotlib.org/) ```pip install matplotlib```
  - [SciPy](https://scipy.org) ```pip install scipy```
+ - [Scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) ```pip install scipy.stats```
+ - [Seaborn](https://seaborn.pydata.org/) ```pip install seaborn```
  
  ## Objectives:
  

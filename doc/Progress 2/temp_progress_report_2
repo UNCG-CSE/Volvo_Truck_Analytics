@@ -3,18 +3,15 @@ This report is for the progress period ending on 11/05/2019.
 Report is based on the guidelines under the "Report" section provided in the rubric.
 
 Ioannis Batsios
-Vehicle Temp Analysis (10+ hours)
+Vehicle Temp Analysis (Around 12 hours)
 The goal of this task was to determine if the external temperature affected the performance of the vehicle. 
 The results showed that the external temperature was in line with the temperature of the internal temperature 
 readings of the vehicle. After seeing this result, I decided to do some research and discovered that the external 
-temperature does not affect performance unless the temperature is extreme and the feature (or part) that is affected 
-the most is the turbocharger, because it is compressing the hot intake air. If the ambient air is increased, the 
-turbocharger has to do more work in order to prove the engine with the same amount of oxygen. If the temperature 
-continues to increase, the turbocharger will eventually hit a maximum speed and will no longer provide enough oxygen 
-to the engine resulting in a loss of power.
-
-There is no more work needed to be done on temperature analysis because unless the temperatures are extreme (temp < 0(C)
-or temp > 38(C).
+temperature does affect performance and the feature (or part) that is affected the most is the turbocharger, 
+because it is compressing the hot intake air. If the ambient air is increased, the turbocharger has to do more work 
+in order to prove the engine with the same amount of oxygen. If the temperature continues to increase,
+the turbocharger will eventually hit a maximum speed and will no longer provide enough oxygen to the 
+engine resulting in a loss of power. Unsure what more is needed to be done with this information.
 
 Bill Downs
 Identifying similarities in distribution and scatter plots in APU metrics. Also, linear regression, covariance and correlation is analyzed 

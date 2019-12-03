@@ -33,7 +33,14 @@ for a given application of that vehicle.
 ...
 
 Wahab Ehsan
-<task><hours spent>
+Time to Ideal Temperature with Ambient Temperature (~7 hours)
+Worked on finding the time it takes to get to ideal temperature with outside temperature taken into consideration. The Data for
+for time wasnt given. Had to find out the Ideal temperature for the oil. Found the average temperature of oil for each day and used
+it as the Ideal temperature. Then made function to find difference of seconds between two indexes. Was able to check from begining to
+whenever the temperature gets to ideal temperature and found the seconds it took to get there. Made sure the temperature difference between begining
+to ideal had at least 30 degrees C difference and the session the truck is been on is at least for 600 seconds. Then was able to 
+make X equals to the outside temperature and Y as the Seconds it took to get to ideal temperature. Then plotted on graph and saw positive
+correlation, which was unexpected. Make least square line for predictions and was able to predict few values.
 ...
 
 James Polk

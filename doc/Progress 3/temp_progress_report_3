@@ -20,7 +20,14 @@ Wahab Ehsan
 ...
 
 James Polk
-<task><hours spent>
+Time Series Analysis on Truck 1 (~5 hours)
+After reviewing and cleaning sensor logs, I saw that the data was spotty for most sensors.  To overcome this I performed Time Series Analysis on only 
+those sensors with no NaN values.  Furthermore, the data is sampled every 100 milliseconds, causing a lot of noise when plotted.
+I decided to resample my data to every 1 minute using mean. This provided at least some fix for the noise, but not for the data gaps.
+Unfortunatly, resampling any higher resulted in a loss of accuracy, and other than making pretty graphs, did not contribute in any way 
+to analysis.  After resampling, I performed time series analysis using exponentially weighted moving averages on thr CPU Load, Outside Air
+Temperature, Temperature of Air Entering Vehicle, Vehicle Weight, and Driver Requested Torque.  When trying to run Dicky-Fuller tests 
+on the data, I was met with errors due to gaps in the data.  The same result happened when trying to run decomposition analysis. 
 ...
 
 Christopher Thacker

@@ -1,0 +1,43 @@
+Volvo Truck Analytics
+This report is for the progress period ending on 12/03/2019.
+Report is based on the guidelines under the "Report" section provided in the rubric.
+
+Ioannis Batsios
+Created a multiple linear regression model to check engine manifold temperature. <~5 hours>
+After seeing how ambient air temperature affected the Turbospeed, I was interested in seeing if I could use outside
+temperature and other engine temperatures to predict the temperature of the manifold. I thought this could be useful
+in determining whether or not a part was going out. My first model was created by just "doing it" and seeing what I 
+came up with. I received a score of .734 percent accurate, which is pretty good. But I wanted to try and make a better one
+so I tried doing backward elimination. Unfortunately, my p-values are so low, I'm not sure it would improve my model anymore
+to attempt it. Need to do more research to see if I should modify my model better.
+
+Bill Downs
+<task><hours spent>
+...
+
+Wahab Ehsan
+<task><hours spent>
+...
+
+James Polk
+<task><hours spent>
+...
+
+Christopher Thacker
+Truck 2 GPS Speed Corrections (~4 hours)
+As we learned from Project Progress two (2), Truck 2 has some faulty data for its GPS Speed
+component. This is a bigger issue for Volvo than us, but my questions from this was "how well
+would this component work if it was completely functional and what would its more correct
+measurements look like?" Thankfully, Truck 1's components appear to be working perfectly fine.
+This means I was able to use Truck 1's data as a model to predict what Truck 2's GPS Speed values
+_should_ be. To solve this issue, I took the difference of means for Truck 1's GPS Speed and
+Wheel-Based Speeds. Using that value, I iterated through Truck 2's Wheel-Based Speed values and
+added that mean to each value and stored the result into a separate column. These calculated values
+were the "predicted" GPS Speed values for Truck 2. I created visualizations and calculated their values 
+to better analyze the results, and those results appear to be fairly consistent with the correctly measured
+values for Truck 1. 
+
+Github Repository Management (~3 hours)
+For most of Project Progress Three (3), I have been given the responsibility of managing the GitHub repository in a multitude of ways. This
+includes updating the home page README, creating, updating, and closing Issues, creating and assigning Labels to those Issues,
+managing and assigning group members to those Issues, and trying to keep the general repository structure simple and clean.

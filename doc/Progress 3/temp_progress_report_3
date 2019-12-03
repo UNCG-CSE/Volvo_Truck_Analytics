@@ -11,8 +11,25 @@ came up with. I received a score of .734 percent accurate, which is pretty good.
 so I tried doing backward elimination. Unfortunately, my p-values are so low, I'm not sure it would improve my model anymore
 to attempt it. Need to do more research to see if I should modify my model better.
 
-Bill Downs
-<task><hours spent>
+Bill Downs <~7hours>
+Contiuation of evaluating the APU unit with Machine Liearning.
+Classifier: Logistic regression
+I utilized the logistic regression classification to predict if the apu unit is charged at a aparticular time of the day. First,
+I kept my linear regresson scatter plot as it may be insightful while discussion my machine learning outcome. Second, I had to create
+a new column that calculated a binary value as a 1 if the apu is charged (>14.0 volts) else 0 it is not fully charged. I had to check 
+electrical engineers because a lot of different values exist on the internet of "max charged voltage", which the Engineers were happy
+with values considered charged at 14.0 or greater. 
+Next is where the most time was spent, as our sensors take measurements every 10th of a second the I assumed the large amount of data 
+would be quite insightful. I was wrong. after using the train test split method and fitting/training my data the scores were very unintuitive
+so i decided to resample, as i did before at 300 seconds. This decreased the total amount of data and my training score was a little less 
+than my testing score. But only by a very small amount. I then calculated a predicition of probability and was somewhat happy with this
+but I had to refer back to the time series from last project to see a visual correlation.
+I also calculated a confusion matrix to see where my classifier stood. The True positives and True negatives were quite high which was 
+but it seemed about a quarter of the results were either false positive or false negative values.
+Conclusion, this was a cool project and i think there are a lot of was that Volvo can futher drill down on this data to come up with
+well rounded assumptions of how well the APU system is performing with a partcular driver and maybe if the system is over or under kill 
+for a given application of that vehicle. 
+
 ...
 
 Wahab Ehsan

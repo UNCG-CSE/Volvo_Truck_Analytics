@@ -23,13 +23,14 @@ Our group has been given data on two different Volvo Vehicles (Trucks). These tr
  - [Python 3.7.5](https://www.python.org/downloads/release/python-375/)
  - A Python Package Manager (we recommend [pip](https://pip.pypa.io/en/stable/installing/))
  - [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) (Run ```pip install jupyter``` on CLI)
- #### Dependencies (working list):
+ #### Dependencies:
  - [Numpy](https://numpy.org/) ```pip install numpy```
  - [Pandas](https://pandas.pydata.org/) ```pip install pandas```
  - [Matplotlib](https://matplotlib.org/) ```pip install matplotlib```
  - [SciPy](https://scipy.org) ```pip install scipy```
  - [Scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) ```pip install scipy.stats```
  - [Seaborn](https://seaborn.pydata.org/) ```pip install seaborn```
+ - [StatsModels](https://www.statsmodels.org/0.9.0/install.html) ```pip install statsmodels```
  
  ## Objectives:
  

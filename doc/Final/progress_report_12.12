@@ -8,7 +8,26 @@ Ioannis Batsios
 ...
 
 Bill Downs
-<task><hours>
+Cleaning data and investigations into what a APU was (4-10hours)
+There was no simple answer to this. How to resample to make the data more revealing, remove nans, setting up meetings with daniel
+and different engineers. 
+
+General distribution analysis (~2hours)
+Our data was not normal and histograms/KDE is easy to build in python.
+
+Linear regression with scatterplots and accuracy metrics (4-7hours)
+Alot of trial and error went into this as some metrics like the inverter and friderator were not connected to the APU unit, and i did
+not know this until I had meeting with engineering. The Ambient air temperature and engine speed had little correlation with the apu battery 
+bank while the apu and alternator showed a clear correlation.
+
+Machine Learning(~5-8hours)
+This was the cool part. Using logistic regression to predict a time of day the APU battery would be charged. I tried to use too much data
+initally(the full 10Hz), assuming more data is better, but the results were very strange and unpredicatable. I then scaled down to the original 
+days and minutes per day and got some good results on a test train and split method. 
+
+Final Draft slides (~4 hours)
+Putting everything in a rough outline to review results of our project. Placing my results and discriptions in slides and wrapping it all
+up with a thoughtful conclusion of our findings.
 ...
 
 Wahab Ehsan

@@ -12,7 +12,41 @@ Bill Downs
 ...
 
 Wahab Ehsan
-<task><hours>
+Determine whether there are rows or columns with all NaN values, if so remove them. (~3 Hours)
+This was completed by Wahab Ehsan. In order to find rows that are not useful because of the excessive amounts of NaN types, the 
+following conditions were taken into consideration. The number of columns for each truck is different. The times NaN type in truck1 
+does not equal to the number of time NaN types appear on truck2. Columns with all NaN types are useless and are deleted using pandas. 
+Rows are deleted by the threshold value percent. If the Non-NaN values are less than the percent given, then the row would be deleted. 
+Initially the percent threshold is set to 75 at the moment as a global variable and can be decremented or incremented depending on 
+the data needed.
+
+Display Data by day (~3 hours) 
+Function implementation of display data by day was created to sort all data by average for each day for a certain attribute. 
+Goal was to create a cleaner way of looking at data to find something interesting. We were able to find out that data for Truck one 
+data was the week of data or seven days which was expected, but for truck two there was only 3 days' worth of data, which was less than we were told.
+This means we'll have to decide which days to compare when comparing the two trucks and which days will be not useful.
+
+Outlier Detection data (~12 hours)
+This function was made to detect all the outliers in the data for a certain attribute and have a boxplot made for visuals. 
+Even though the data for truck one was 7 days' worth, the averages were very far apart making me think if there are a lot of outliers 
+and after running it through the function I was able to find out that the last 3 days of data for truck one was outliers. Meaning 
+there were three days worth of no useful data for Speed (km/hr).
+
+Determining Estimator (~3 hour)
+Was able to determine to use the Kernel Density Estimation (KDE) because of it being non-parametric. For the bandwidth I decided to 
+use a larger bandwidth since our data was scattered around. Use of this function will be beneficial in the future. 
+We used this because our data had large number of outliers and was not a normal distribution. Maybe after removing the outliers 
+we will switch to MLE, and we didn't choose MoM because that is also for normal distributions and not as effective in our case because of 
+our several outliers in the data.
+
+Time to Ideal Temperature with Ambient Temperature (~7 hours)
+Worked on finding the time it takes to get to ideal temperature with outside temperature taken into consideration. The Data for
+for time wasnt given. Had to find out the Ideal temperature for the oil. Found the average temperature of oil for each day and used
+it as the Ideal temperature. Then made function to find difference of seconds between two indexes. Was able to check from begining to
+whenever the temperature gets to ideal temperature and found the seconds it took to get there. Made sure the temperature difference between begining
+to ideal had at least 30 degrees C difference and the session the truck is been on is at least for 600 seconds. Then was able to 
+make X equals to the outside temperature and Y as the Seconds it took to get to ideal temperature. Then plotted on graph and saw positive
+correlation, which was unexpected. Make least square line for predictions and was able to predict few values.
 ...
 
 James Polk
